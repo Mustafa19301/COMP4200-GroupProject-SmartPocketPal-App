@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP4200_GroupProject_App">
         <activity
+            android:name=".CreateAccountScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
